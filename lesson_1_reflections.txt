@@ -1,0 +1,35 @@
+Cómo el ver una diferencia entre dos versiones me ayuda a identificar el bug?
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Pues al tener a vista únicamente aquellas líneas de texto que han cambiado de una versión a otra, y entendiendo que dicha versión funcionaba con anterioridad es lógico asumir que si hay un bug se encontrará en aquellas líneas modificadas, por lo que al filtrar la información del archivo, centrándonos únicamente en aquello que nos interesa que es lo que cambió, podemos encontrar el bug con mayor facilidad.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Porque simplifica el navegar por versiones anteriores del trabajo, de manera que si se genera un error, es fácil recuperar un estado anterior del programa que no lo tenga y en base a el analizar el problema que lo generó en primer lugar. Además, permite "moverse en el tiempo" entre diferentes edades del trabajo.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Los pros son que se pueden crear commits (versiones) mas coherentemente lógicas, estando estas ligadas específicamente a la implementación de una funcionalidad en particular. En contra esta que si se hace manualmente se puede olvidar hacerlo de vez en cuando quedando posibles espacios de cambios sin rastrear que podrían ser importantes. Cuando esto se hace automaticamente se tiene certeza de que en todo momento se tendrá información al respecto.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Porque Git está enfocado al desarrollo de software y aquí es común encontrarse con múltiples archivos que forman parte del mismo proyecto y que están interrelacionados para el funcionamiento del mismo. Mientras tanto en Google Docs, existe dicha separación porque se enfoca a documentos que como sabemos no necesariamente se requieren unos a otros.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Al ejecutarlos ya que con uno veo los commits que existen y con el otro los cambios que hay entre 2 de ellos (puedo elegir 2 adyacentes gracias a que los veo en el log). Viendo estos cambios adyacentes es posible identificar qué cambió en un archivo de una ocasión a otra.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Porque se tiene la seguridad de que si se comete un error, siempre se podrá regresar a una versión anterior funcional.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Me gustaría usarlo para mis proyectos escolares y personales de software.
