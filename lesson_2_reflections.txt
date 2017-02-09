@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Cuando inicializas un repositorio git empieza a rastrear los archivos que contiene y que seguramente deben formar parte del proyecto. Necesitas hacerlo porque de lo contrario git no es capaz de identificar en que carpeta o carpetas se encuentra el proyecto al que da seguimiento de sus versiones.
