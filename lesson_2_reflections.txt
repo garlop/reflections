@@ -1,3 +1,25 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Cuando inicializas un repositorio git empieza a rastrear los archivos que contiene y que seguramente deben formar parte del proyecto. Necesitas hacerlo porque de lo contrario git no es capaz de identificar en que carpeta o carpetas se encuentra el proyecto al que da seguimiento de sus versiones.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+El staging area es un "area" intermedia donde se guardan los archivos que están siendo seguidos por git y que han sufrido cambios pero que aún no se les ha hecho commit. Ya que no todo lo que está en nuestro directorio de trabajo se va a incluir necesariamente en un commit. El directorio de trabajo es la carpeta donde está el repositorio, pero dado que el repositorio contiene versiones de los archivos a los que se les hizo commit, no es lo mismo el directorio de trabajo como tal que el repositorio. 
+
+Ofrece mayor control sobre lo que se guarda o no en un commit, permitiendo hacer commits parciales sobre según sólo algunos archivos que nos puedan interesar y no necesariamente sobretodos, aunque otros archivos hayan podido haber sufrido cambios.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Añadiendo únicamente los archivos que están relacionados con dicho cambio al momento de hacer commit en lugar de todos.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Cuando se trabaja en equipo y se requiere que no todo mundo esté haciendo cambios directamente a la rama principal sino hasta que sean completamente funcionales en todo sentido. Cuando se prueban características experimentales. Cuando se hacen versiones de desarrollo pero se requiere mantener una versión en funcionamiento. Ayudan permitiendo trabajar sobre el proyecto sin afectar lo que ya se encuentra en funcionamiento.
+
+How do the diagrams help you visualize the branch structure?
+
+Nos permiten entender la estructura lógica más sencillamente que mediante solo datos escritos que requieren más análisis directo.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+El resultado es que los cambios hechos en ambas ramas son unidos en una nueva versión del trabajo. Se representa como una unión, porque en realidad une ambas ramas, significando esto que ya no necesitaremos posteriormente una de las dos
