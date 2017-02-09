@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Cuando quieres que otras personas colaboren contigo en un proyecto abierto o cerrado pero con un grupo de trabajo amplio, o bien cuando te interesa poder acceder al contenido de tu trabajo desde múltiples equipos.
