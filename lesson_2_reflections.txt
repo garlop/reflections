@@ -23,3 +23,7 @@ Nos permiten entender la estructura lógica más sencillamente que mediante solo
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 El resultado es que los cambios hechos en ambas ramas son unidos en una nueva versión del trabajo. Se representa como una unión, porque en realidad une ambas ramas, significando esto que ya no necesitaremos posteriormente una de las dos
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+El que lo haga automáticamente facilita el trabajo colaborativo. No es necesario supervisar cada cosa sino únicamente lo que no sea posible hacer automáticamente. Eso vuelve más eficiente el trabajo.
