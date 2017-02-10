@@ -16,3 +16,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Que puedes trabajar sabiendo de que manera puede afectar al proyecto en tu repositorio remoto los cambios que estás haciendo actualmente.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Tendría que ponerme de acuerdo con ellos todo el tiempo para asegurarnos de que nuestras versiones del trabajo no choquen entre sí. Eso dificultaría el trabajo por tener que estar guardando versiones estables y verificando que el trabajo de unos no afecte a otros. Sería por tanto mucho más difícil hacerlo de esa forma.
