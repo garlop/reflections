@@ -11,3 +11,8 @@ Describe the differences between forks, clones, and branches. When would you use
 Usas forks cuando quieres tener una copia remota de un repositorio para poder utilizarlo sin afectar al repositorio original, de manera que luego puedas usarlo como remote en tu máquina local y modificarlo sin problemas.
 Usas clone cuando quieres tener una copia exacta de uno de tus repositorios o de un repositorio al que tienes acceso, ya sea que lo clones desde github o que lo clones local. Si se clona, el repositorio cloado queda efectivamente como el remoto por lo que los cambios si afectan, no conviene hacerlo a no ser que tengamos permiso de modificar dicho proyecto.
 Usas ramas cuando quieres tener diferentes funcionalidades en tu proyecto, algunos en proceso y otros terminados y funcionales, sin que unas versiones del proyecto afecten a otras.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Que puedes trabajar sabiendo de que manera puede afectar al proyecto en tu repositorio remoto los cambios que estás haciendo actualmente.
+
