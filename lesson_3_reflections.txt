@@ -5,3 +5,9 @@ Cuando quieres que otras personas colaboren contigo en un proyecto abierto o cer
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Porque quizá el repositorio remoto es compartido y no me interesa necesariamente tener todo lo que otras personas están haciendo hasta que su funcionalidad no esté al 100 % de manera que no afecte mi trabajo.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Usas forks cuando quieres tener una copia remota de un repositorio para poder utilizarlo sin afectar al repositorio original, de manera que luego puedas usarlo como remote en tu máquina local y modificarlo sin problemas.
+Usas clone cuando quieres tener una copia exacta de uno de tus repositorios o de un repositorio al que tienes acceso, ya sea que lo clones desde github o que lo clones local. Si se clona, el repositorio cloado queda efectivamente como el remoto por lo que los cambios si afectan, no conviene hacerlo a no ser que tengamos permiso de modificar dicho proyecto.
+Usas ramas cuando quieres tener diferentes funcionalidades en tu proyecto, algunos en proceso y otros terminados y funcionales, sin que unas versiones del proyecto afecten a otras.
